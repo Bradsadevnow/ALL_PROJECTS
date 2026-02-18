@@ -1,0 +1,54 @@
+name: Deploy Landing Page to Cloud Run
+
+on:
+  push:
+    tags:
+      - 'v-landing-*' 
+
+env:
+  PROJECT_ID: 'steve-agent-v2'
+  REGION: 'us-central1'
+  SERVICE_NAME: 'recursive-emotion-landing'
+  GAR_REPO: 'steve-repo'
+  WIF_PROVIDER: 'projects/620364081275/locations/global/workloadIdentityPools/github-pool/providers/github-pool'
+  SVC_ACCOUNT: 'steve-vertex@steve-agent-v2.iam.gserviceaccount.com'
+
+jobs:
+  deploy-landing:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+    
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - id: 'auth'
+        name: 'Google Auth'
+        uses: 'google-github-actions/auth@v2'
+        with:
+          workload_identity_provider: '${{ env.WIF_PROVIDER }}'
+          service_account: '${{ env.SVC_ACCOUNT }}'
+          token_format: 'access_token'
+
+      - name: 'Docker Auth'
+        uses: 'docker/login-action@v3'
+        with:
+          username: 'oauth2accesstoken'
+          password: '${{ steps.auth.outputs.access_token }}'
+          registry: '${{ env.REGION }}-docker.pkg.dev'
+
+      - name: 'Build and Push Landing Page'
+        run: |-
+          IMAGE="${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.GAR_REPO }}/${{ env.SERVICE_NAME }}:${{ github.sha }}"
+          docker build -t "$IMAGE" ./landing
+          docker push "$IMAGE"
+
+      - name: 'Deploy to Cloud Run'
+        run: |-
+          gcloud run deploy ${{ env.SERVICE_NAME }} \
+            --image ${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.GAR_REPO }}/${{ env.SERVICE_NAME }}:${{ github.sha }} \
+            --region ${{ env.REGION }} \
+            --platform managed \
+            --allow-unauthenticated
