@@ -2,7 +2,7 @@
 
 This repository contains a sophisticated ecosystem of AI-related projects, ranging from embodied conversational agents and deterministic game solvers to neuro-inspired memory systems and mechanistic interpretability tools.
 
----
+---TRIGGER
 
 ## 🤖 Conversational & Embodied Agents
 
