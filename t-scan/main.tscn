@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://bkucusasgqg40"]
+
+[ext_resource type="Script" uid="uid://cl5tm31wovudk" path="res://camera.gd" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://b5l6608kbblaj" path="res://noderender.gd" id="1_ig7tw"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30, 0, 0)
+
+[node name="CameraRig" type="Node3D" parent="."]
+
+[node name="CameraPivot" type="Node3D" parent="CameraRig"]
+
+[node name="Camera" type="Camera3D" parent="CameraRig/CameraPivot"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 30.856262, 50.17381)
+current = true
+script = ExtResource("1_0xm2m")
+brain_renderer_path = NodePath("../../../NodeRenderer")
+
+[node name="NodeRenderer" type="Node3D" parent="."]
+script = ExtResource("1_ig7tw")
+token_start = 26
+spacing = 0.5
+layer_spacing = 3.0

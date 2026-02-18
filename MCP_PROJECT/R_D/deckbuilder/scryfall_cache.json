@@ -1,0 +1,338 @@
+{
+  "ms. bumbleflower": {
+    "cached_at": "2026-02-08T21:22:22.192568",
+    "data": {
+      "name": "Ms. Bumbleflower",
+      "mana_cost": "{1}{G}{W}{U}",
+      "cmc": 4.0,
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "color_identity": [
+        "G",
+        "U",
+        "W"
+      ],
+      "type_line": "Legendary Creature \u2014 Rabbit Citizen",
+      "oracle_text": "Vigilance\nWhenever you cast a spell, target opponent draws a card. Put a +1/+1 counter on target creature. It gains flying until end of turn. If this is the second time this ability has resolved this turn, you draw two cards.",
+      "power": "1",
+      "toughness": "5",
+      "loyalty": null,
+      "rarity": "mythic",
+      "set_name": "Bloomburrow Commander",
+      "set_code": "blc",
+      "collector_number": "3",
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1721428140",
+        "normal": "https://cards.scryfall.io/normal/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1721428140",
+        "large": "https://cards.scryfall.io/large/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1721428140",
+        "png": "https://cards.scryfall.io/png/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.png?1721428140",
+        "art_crop": "https://cards.scryfall.io/art_crop/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1721428140",
+        "border_crop": "https://cards.scryfall.io/border_crop/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1721428140"
+      },
+      "prices": {
+        "usd": "3.72",
+        "usd_foil": "0.72",
+        "usd_etched": null,
+        "eur": "2.21",
+        "eur_foil": "2.28",
+        "tix": "1.20"
+      },
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "not_legal",
+        "timeless": "not_legal",
+        "gladiator": "not_legal",
+        "pioneer": "not_legal",
+        "modern": "not_legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "not_legal",
+        "commander": "legal",
+        "oathbreaker": "legal",
+        "standardbrawl": "not_legal",
+        "brawl": "not_legal",
+        "alchemy": "not_legal",
+        "paupercommander": "not_legal",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal",
+        "predh": "not_legal"
+      },
+      "keywords": [
+        "Vigilance"
+      ],
+      "edhrec_rank": 3587,
+      "scryfall_uri": "https://scryfall.com/card/blc/3/ms-bumbleflower?utm_source=api",
+      "oracle_id": "25636214-c6ea-4655-a5e8-98e735da5b05"
+    }
+  },
+  "the ooze": {
+    "cached_at": "2026-02-08T21:30:01.644814",
+    "data": {
+      "name": "The Ooze",
+      "mana_cost": "{2}",
+      "cmc": 2.0,
+      "colors": [],
+      "color_identity": [],
+      "type_line": "Legendary Artifact",
+      "oracle_text": "Whenever a creature you control with a +1/+1 counter on it leaves the battlefield, create a Mutagen token for each +1/+1 counter on it. (A Mutagen token is an artifact with \"{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery.\")\n{T}: Exile target card from a graveyard. Create a Mutagen token.",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "rarity": "rare",
+      "set_name": "Teenage Mutant Ninja Turtles",
+      "set_code": "tmt",
+      "collector_number": "177",
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/1/f/1f9bd4da-4626-40ba-95f4-14e3de36f989.jpg?1769006428",
+        "normal": "https://cards.scryfall.io/normal/front/1/f/1f9bd4da-4626-40ba-95f4-14e3de36f989.jpg?1769006428",
+        "large": "https://cards.scryfall.io/large/front/1/f/1f9bd4da-4626-40ba-95f4-14e3de36f989.jpg?1769006428",
+        "png": "https://cards.scryfall.io/png/front/1/f/1f9bd4da-4626-40ba-95f4-14e3de36f989.png?1769006428",
+        "art_crop": "https://cards.scryfall.io/art_crop/front/1/f/1f9bd4da-4626-40ba-95f4-14e3de36f989.jpg?1769006428",
+        "border_crop": "https://cards.scryfall.io/border_crop/front/1/f/1f9bd4da-4626-40ba-95f4-14e3de36f989.jpg?1769006428"
+      },
+      "prices": {
+        "usd": "14.24",
+        "usd_foil": null,
+        "usd_etched": null,
+        "eur": "4.99",
+        "eur_foil": null,
+        "tix": null
+      },
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "not_legal",
+        "timeless": "not_legal",
+        "gladiator": "not_legal",
+        "pioneer": "not_legal",
+        "modern": "not_legal",
+        "legacy": "not_legal",
+        "pauper": "not_legal",
+        "vintage": "not_legal",
+        "penny": "not_legal",
+        "commander": "not_legal",
+        "oathbreaker": "not_legal",
+        "standardbrawl": "not_legal",
+        "brawl": "not_legal",
+        "alchemy": "not_legal",
+        "paupercommander": "not_legal",
+        "duel": "not_legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal",
+        "predh": "not_legal"
+      },
+      "keywords": [],
+      "edhrec_rank": 24146,
+      "scryfall_uri": "https://scryfall.com/card/tmt/177/the-ooze?utm_source=api",
+      "oracle_id": "82a6fa6f-13c2-4ea3-bec2-c51b56b2783b"
+    }
+  },
+  "dragon": {
+    "cached_at": "2026-02-08T21:37:30.852083",
+    "data": {
+      "name": "Dragon",
+      "mana_cost": "",
+      "cmc": 0.0,
+      "colors": [],
+      "color_identity": [],
+      "type_line": "Token Creature \u2014 Dragon",
+      "oracle_text": "Flying",
+      "power": "4",
+      "toughness": "4",
+      "loyalty": null,
+      "rarity": "common",
+      "set_name": "Unsanctioned Tokens",
+      "set_code": "tund",
+      "collector_number": "4",
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/6/8/6819b8c9-73a3-4e8e-ad7a-95cffabf873a.jpg?1684573320",
+        "normal": "https://cards.scryfall.io/normal/front/6/8/6819b8c9-73a3-4e8e-ad7a-95cffabf873a.jpg?1684573320",
+        "large": "https://cards.scryfall.io/large/front/6/8/6819b8c9-73a3-4e8e-ad7a-95cffabf873a.jpg?1684573320",
+        "png": "https://cards.scryfall.io/png/front/6/8/6819b8c9-73a3-4e8e-ad7a-95cffabf873a.png?1684573320",
+        "art_crop": "https://cards.scryfall.io/art_crop/front/6/8/6819b8c9-73a3-4e8e-ad7a-95cffabf873a.jpg?1684573320",
+        "border_crop": "https://cards.scryfall.io/border_crop/front/6/8/6819b8c9-73a3-4e8e-ad7a-95cffabf873a.jpg?1684573320"
+      },
+      "prices": {
+        "usd": null,
+        "usd_foil": null,
+        "usd_etched": null,
+        "eur": null,
+        "eur_foil": null,
+        "tix": null
+      },
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "not_legal",
+        "timeless": "not_legal",
+        "gladiator": "not_legal",
+        "pioneer": "not_legal",
+        "modern": "not_legal",
+        "legacy": "not_legal",
+        "pauper": "not_legal",
+        "vintage": "not_legal",
+        "penny": "not_legal",
+        "commander": "not_legal",
+        "oathbreaker": "not_legal",
+        "standardbrawl": "not_legal",
+        "brawl": "not_legal",
+        "alchemy": "not_legal",
+        "paupercommander": "not_legal",
+        "duel": "not_legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal",
+        "predh": "not_legal"
+      },
+      "keywords": [
+        "Flying"
+      ],
+      "edhrec_rank": null,
+      "scryfall_uri": "https://scryfall.com/card/tund/4/dragon?utm_source=api",
+      "oracle_id": "eaf318f0-2cad-437c-8162-78462ecbc235"
+    }
+  },
+  "ms bumbleflower": {
+    "cached_at": "2026-02-08T21:43:57.398334",
+    "data": {
+      "name": "Ms. Bumbleflower",
+      "mana_cost": "{1}{G}{W}{U}",
+      "cmc": 4.0,
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "color_identity": [
+        "G",
+        "U",
+        "W"
+      ],
+      "type_line": "Legendary Creature \u2014 Rabbit Citizen",
+      "oracle_text": "Vigilance\nWhenever you cast a spell, target opponent draws a card. Put a +1/+1 counter on target creature. It gains flying until end of turn. If this is the second time this ability has resolved this turn, you draw two cards.",
+      "power": "1",
+      "toughness": "5",
+      "loyalty": null,
+      "rarity": "mythic",
+      "set_name": "Bloomburrow Commander",
+      "set_code": "blc",
+      "collector_number": "3",
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1721428140",
+        "normal": "https://cards.scryfall.io/normal/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1721428140",
+        "large": "https://cards.scryfall.io/large/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1721428140",
+        "png": "https://cards.scryfall.io/png/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.png?1721428140",
+        "art_crop": "https://cards.scryfall.io/art_crop/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1721428140",
+        "border_crop": "https://cards.scryfall.io/border_crop/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1721428140"
+      },
+      "prices": {
+        "usd": "3.72",
+        "usd_foil": "0.72",
+        "usd_etched": null,
+        "eur": "2.21",
+        "eur_foil": "2.28",
+        "tix": "1.20"
+      },
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "not_legal",
+        "timeless": "not_legal",
+        "gladiator": "not_legal",
+        "pioneer": "not_legal",
+        "modern": "not_legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "not_legal",
+        "commander": "legal",
+        "oathbreaker": "legal",
+        "standardbrawl": "not_legal",
+        "brawl": "not_legal",
+        "alchemy": "not_legal",
+        "paupercommander": "not_legal",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal",
+        "predh": "not_legal"
+      },
+      "keywords": [
+        "Vigilance"
+      ],
+      "edhrec_rank": 3587,
+      "scryfall_uri": "https://scryfall.com/card/blc/3/ms-bumbleflower?utm_source=api",
+      "oracle_id": "25636214-c6ea-4655-a5e8-98e735da5b05"
+    }
+  },
+  "lightning bolt": {
+    "cached_at": "2026-02-08T23:32:13.311718",
+    "data": {
+      "name": "Lightning Bolt",
+      "mana_cost": "{R}",
+      "cmc": 1.0,
+      "colors": [
+        "R"
+      ],
+      "color_identity": [
+        "R"
+      ],
+      "type_line": "Instant",
+      "oracle_text": "Lightning Bolt deals 3 damage to any target.",
+      "power": null,
+      "toughness": null,
+      "loyalty": null,
+      "rarity": "uncommon",
+      "set_name": "Ravnica: Clue Edition",
+      "set_code": "clu",
+      "collector_number": "141",
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/7/7/77c6fa74-5543-42ac-9ead-0e890b188e99.jpg?1706239968",
+        "normal": "https://cards.scryfall.io/normal/front/7/7/77c6fa74-5543-42ac-9ead-0e890b188e99.jpg?1706239968",
+        "large": "https://cards.scryfall.io/large/front/7/7/77c6fa74-5543-42ac-9ead-0e890b188e99.jpg?1706239968",
+        "png": "https://cards.scryfall.io/png/front/7/7/77c6fa74-5543-42ac-9ead-0e890b188e99.png?1706239968",
+        "art_crop": "https://cards.scryfall.io/art_crop/front/7/7/77c6fa74-5543-42ac-9ead-0e890b188e99.jpg?1706239968",
+        "border_crop": "https://cards.scryfall.io/border_crop/front/7/7/77c6fa74-5543-42ac-9ead-0e890b188e99.jpg?1706239968"
+      },
+      "prices": {
+        "usd": "1.72",
+        "usd_foil": null,
+        "usd_etched": null,
+        "eur": "1.41",
+        "eur_foil": null,
+        "tix": "0.02"
+      },
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "banned",
+        "timeless": "legal",
+        "gladiator": "legal",
+        "pioneer": "not_legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "legal",
+        "vintage": "legal",
+        "penny": "not_legal",
+        "commander": "legal",
+        "oathbreaker": "legal",
+        "standardbrawl": "not_legal",
+        "brawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "legal",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "legal",
+        "predh": "legal"
+      },
+      "keywords": [],
+      "edhrec_rank": 163,
+      "scryfall_uri": "https://scryfall.com/card/clu/141/lightning-bolt?utm_source=api",
+      "oracle_id": "4457ed35-7c10-48c8-9776-456485fdf070"
+    }
+  }
+}

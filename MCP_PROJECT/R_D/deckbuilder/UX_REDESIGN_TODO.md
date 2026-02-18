@@ -1,0 +1,11 @@
+- [x] Gather user-provided redesign plan
+- [x] Analyze current UI/UX implementation in deckbuilder_app.py
+- [x] Identify modules/components responsible for navigation and layout
+- [x] Draft new component structure aligning with proposed launch flow
+- [x] Refactor code to add Home tab / landing panel
+- [x] Move existing load/deck logic into home flow
+- [x] Implement gating of other tabs until deck is active
+- [x] Add breadcrumb/state display
+- [x] Update routes/jump buttons for workspace navigation
+- [x] Run tests and ensure functionality
+- [ ] Verify UI changes meet user expectations

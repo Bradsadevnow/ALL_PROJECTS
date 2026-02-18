@@ -1,0 +1,238 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-void: #05070A;
+    --color-slate: #1E293B;
+    --color-violet: #6B46C1;
+    --color-ethereal: #F8FAFC;
+    --color-text: #E2E8F0;
+  }
+
+  body {
+    @apply bg-void text-text font-serif antialiased selection:bg-violet/30 selection:text-ethereal overflow-x-hidden;
+    background: radial-gradient(circle at 50% 50%, #0a0f1a 0%, #05070a 100%);
+    position: relative;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: -1;
+  }
+}
+
+@keyframes soft-fade {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+    filter: blur(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-slate/40 border border-ethereal/10 backdrop-blur-md;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+
+  .celestial-border {
+    @apply border border-violet/20 hover:border-violet/50 transition-all duration-700;
+  }
+
+  .glow-violet {
+    box-shadow: 0 0 40px rgba(107, 70, 193, 0.15);
+  }
+
+  .kinetic-type {
+    @apply inline-block hover:scale-[1.01] transition-transform duration-[1500ms] ease-out;
+  }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply bg-void;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.animate-ripple {
+  animation: ripple 0.8s ease-out forwards;
+}
+
+.glitter-bg {
+  background-image: radial-gradient(circle, #a78bfa 1px, transparent 1px);
+  background-size: 20px 20px;
+  animation: glitter 4s linear infinite;
+}
+
+@keyframes glitter {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 40px 40px;
+  }
+}
+
+.text-violet-neon {
+  color: #a78bfa;
+  text-shadow: 0 0 10px #8b5cf6, 0 0 20px #8b5cf6, 0 0 30px #8b5cf6;
+}
+
+.text-rainbow {
+  background: linear-gradient(to right,
+      #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8f00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: rainbow 2s linear infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+.lisa-frank-bg {
+  background: linear-gradient(45deg,
+      #ff00f7, #00d2ff, #9aff00, #ff0055, #00ffcc);
+  background-size: 400% 400%;
+  animation: lisa-frank 5s ease infinite;
+}
+
+@keyframes lisa-frank {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-spin-slow {
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.intense-glitter {
+  background-image:
+    radial-gradient(circle, #ffffff 1px, transparent 1px),
+    radial-gradient(circle, #ff00f7 1px, transparent 1px),
+    radial-gradient(circle, #00d2ff 1px, transparent 1px);
+  background-size: 15px 15px, 25px 25px, 35px 35px;
+  animation: glitter 1s linear infinite;
+}
+
+.animate-glitch {
+  animation: glitch 0.2s linear infinite;
+}
+
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(-5px, 5px);
+  }
+
+  40% {
+    transform: translate(-5px, -5px);
+  }
+
+  60% {
+    transform: translate(5px, 5px);
+  }
+
+  80% {
+    transform: translate(5px, -5px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-violet/30 hover:bg-violet/50 transition-colors;
+}
+
+/* Glitch Effect Animation Keyframes */
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+.animate-glitch {
+  animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+}

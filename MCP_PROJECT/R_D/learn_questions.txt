@@ -1,0 +1,330 @@
+Step 0: What problem class are we actually solving?
+
+Strip everything away and MCP_PROJECT is solving one problem:
+
+How can a model adapt its behavior over time without accumulating hidden, irreversible state about the user?
+
+That’s it.
+
+Not:
+
+intelligence
+
+reasoning
+
+agency
+
+memory
+
+Those are orthogonal problems.
+
+This is a state management problem.
+
+Step 1: Define the primitive objects (no vibes allowed)
+
+Every system like this reduces to four primitives:
+
+1. Input
+
+Raw user interaction.
+
+text
+
+tool calls
+
+timing
+
+explicit signals (toggles, settings)
+
+This is untrusted, high entropy, and not storable by default.
+
+2. State
+
+Any information that survives past the current request.
+
+Key rule:
+
+If it persists, it is state.
+If it influences output later, it matters.
+
+State is where systems get dangerous and brittle.
+
+3. Transformation
+
+Logic that maps:
+
+(input, state) → output
+
+
+This includes:
+
+prompting
+
+retrieval
+
+formatting
+
+throttling
+
+refusal
+
+4. Authority
+
+Who is allowed to:
+
+write state
+
+read state
+
+override behavior
+
+decide correctness
+
+Most AI systems fail because authority is implicit instead of explicit.
+
+Step 2: Why “personalization” is usually a trap
+
+Most teams do this (even big ones):
+
+Observe user behavior
+
+Infer traits
+
+Store traits
+
+Use traits later
+
+Forget where they came from
+
+This causes:
+
+silent bias
+
+unexplainable behavior
+
+regulatory nightmares
+
+user distrust
+
+model hallucinating about the user
+
+The core mistake:
+
+Treating behavioral residue as identity signal
+
+You are explicitly not doing that. Good.
+
+Step 3: Reframe personalization as control signals
+
+Here’s the key conceptual upgrade you’ve already made (even if you didn’t phrase it this way):
+
+Personalization ≠ memory
+Personalization = temporary control signals
+
+Control signals:
+
+adjust verbosity
+
+adjust pacing
+
+adjust uncertainty handling
+
+adjust formatting
+
+adjust tool usage
+
+Crucially:
+
+they do not assert truth
+
+they do not describe the user
+
+they do not accumulate
+
+This is why your domain model works.
+
+Step 4: Why domains exist at all
+
+Domains are not conceptual — they are blast-radius boundaries.
+
+Each domain answers:
+
+“If this state is wrong or abused, what breaks?”
+
+Let’s restate your domains in purely mechanical terms.
+
+Domain 1: Conversation
+
+What it really is: output shaping parameters
+
+Examples:
+
+max tokens
+
+bullet vs prose
+
+tone scalar
+
+structure preferences
+
+Failure mode:
+
+annoying responses
+
+Acceptable.
+Low risk.
+Short TTL.
+
+Domain 2: Tools & retrieval
+
+What it really is: query strategy configuration
+
+Examples:
+
+summarize vs quote
+
+breadth-first vs depth-first
+
+uncertainty tolerance
+
+Failure mode:
+
+suboptimal answers
+
+Still acceptable.
+Still reversible.
+Still not identity.
+
+Domain 3: Opt-in context
+
+What it really is: engagement throttling
+
+Examples:
+
+slow down
+
+reduce interruptions
+
+avoid repetition
+
+Failure mode:
+
+system is quiet when it shouldn’t be
+
+Again: acceptable.
+
+Notice what’s missing?
+
+No domain:
+
+decides facts
+
+decides rules
+
+decides outcomes
+
+decides values
+
+That’s not accidental. That’s correct design.
+
+Step 5: Why STM-only is the correct default
+
+Long-term memory introduces irreversibility.
+
+Once something persists:
+
+it can be replayed
+
+it can be misinterpreted
+
+it can be applied out of context
+
+it can survive policy changes
+
+So your rule:
+
+“No domain may write to LTM”
+
+is not moral.
+It’s engineering hygiene.
+
+If something matters long-term, it must:
+
+be explicit
+
+be reviewed
+
+be attributable
+
+be revocable
+
+That’s why LTM is outside personalization.
+
+Step 6: MCP server = state firewall
+
+Here’s the clean mental model for what you’re building:
+
+The MCP server is a state firewall between the model and persistence.
+
+It does three things:
+
+Accepts raw signals
+
+Converts them into bounded abstractions
+
+Enforces decay and scope
+
+It does not:
+
+infer identity
+
+predict intent
+
+optimize engagement
+
+chase reward
+
+That’s huge.
+
+This is why Gemini is a good target — they need firewalls.
+
+Step 7: Enforcement beats intention (this is key)
+
+You already intuit this, but let’s say it plainly:
+
+“Good rules” are useless unless enforced by structure.
+
+Enforcement mechanisms you should think in terms of:
+
+schemas that literally lack fields for forbidden data
+
+TTL at storage, not logic
+
+process separation (or at least namespace separation)
+
+MCP refusing writes instead of “not using” them
+
+Google reviewers think in these terms.
+
+Step 8: Where learning MCP servers fits in
+
+MCP servers exist to:
+
+mediate tools
+
+mediate state
+
+mediate authority
+
+So MCP_PROJECT is the perfect learning vehicle because:
+
+it forces you to think about data contracts
+
+it forces you to think about boundaries
+
+it forces you to think about failure modes
+
+You’re not learning MCP to “build agents”.
+You’re learning MCP to control surfaces.
+
+That’s the right reason.

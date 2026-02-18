@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+httpx
+beautifulsoup4
+feedparser
+ytmusicapi
+yt-dlp
+pytest
