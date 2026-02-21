@@ -38,9 +38,9 @@ export function TScan() {
         },
         conclusion: "STABILITY AIN'T ZERO MESS-UPS. IT'S SEEING THE MESS COMING FROM ORBIT. T-SCAN FLIPS THE BLACK BOX INTO A STRAIGHT-UP GLASS HOUSE — STARE AT THE CRACKS, KING 👹",
         registry: [
-            { title: "Semantic Vector Mogging", description: "Maps the high-dim chaos where reasoning paths fork, merge, or straight-up snap like twigs. 👹" },
-            { title: "Contradiction Beefs", description: "Blinking red when the model's internal logic turns into a civil war. 👺" },
-            { title: "Temporal Rewind Rizz", description: "Zooms to the exact cursed token where the hallucination virus first dropped. 🦾" }
+            { title: "Semantic Vector Mogging", description: "Maps the high-dim chaos where reasoning paths fork, merge, or straight-up snap like twigs. 👹", img: "003_circuit_01.png" },
+            { title: "Contradiction Beefs", description: "Blinking red when the model's internal logic turns into a civil war. 👺", img: "004_circuit_02.png" },
+            { title: "Temporal Rewind Rizz", description: "Zooms to the exact cursed token where the hallucination virus first dropped. 🦾", img: "001_per-token_mri.png" }
         ]
     };
 
@@ -266,7 +266,7 @@ export function TScan() {
                         {(vibe === 'brainrot' ? brainrotContent.registry : [
                             { title: "Semantic Vector Mapping", description: "Visualizing the high-dimensional space where reasoning paths branch and merge.", img: "003_circuit_01.png" },
                             { title: "Contradiction Alerts", description: "Real-time indicators when internal logic chains become mutually exclusive.", img: "004_circuit_02.png" },
-                            { title: "Temporal Rewind", description: "Analyzing the exact token where the first seed of hallucination was planted.", img: "005_circuit_03.png" }
+                            { title: "Early Circuit Detection", description: "Identifying latent structures before they resolve into semantic tokens.", img: "002_early_circuits.png" }
                         ]).map((module, i) => (
                             <div key={i} className={`p-8 glass-panel celestial-border space-y-6 group transition-all ${vibe === 'brainrot' ? 'border-violet-neon bg-violet/20 shadow-xl' : 'bg-slate/10'}`}>
                                 <div className={`text-[9px] font-sans tracking-[0.3em] uppercase ${vibe === 'brainrot' ? 'text-violet-neon font-black' : 'text-violet/60'}`}>Module::0{i + 1}</div>

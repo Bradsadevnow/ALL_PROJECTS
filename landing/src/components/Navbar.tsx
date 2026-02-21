@@ -41,7 +41,8 @@ export function Navbar({ vibe }: { vibe: 'tech' | 'normal' | 'brainrot' }) {
                                             { path: '/projects/t-scan', label: vibe === 'brainrot' ? 'SKIBIDI_SCAN' : 'T-Scan Research', id: '01' },
                                             { path: '/projects/halcyon', label: vibe === 'brainrot' ? 'HALCYON_GYATT' : 'Halcyon Logic', id: '02' },
                                             { path: '/projects/shared-workbench', label: vibe === 'brainrot' ? 'RIZZ_BENCH' : 'Shared Workbench', id: '03' },
-                                            { path: '/projects/bob', label: vibe === 'brainrot' ? 'BOB_THE_MOGGER' : 'Bob: Visual Shell', id: '04' }
+                                            { path: '/projects/bob', label: vibe === 'brainrot' ? 'BOB_THE_MOGGER' : 'Bob: Visual Shell', id: '04' },
+                                            { path: '/projects/iris', label: vibe === 'brainrot' ? 'IRIS_MAXING' : 'Iris Runtime', id: '05' }
                                         ].map((project) => (
                                             <Link
                                                 key={project.path}

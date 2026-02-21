@@ -11,6 +11,7 @@ import { SharedWorkbench } from './pages/SharedWorkbench';
 import { Bob } from './pages/Bob';
 import { Halcyon } from './pages/Halcyon';
 import { Research } from './pages/Research';
+import { Iris } from './pages/Iris';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
@@ -77,6 +78,7 @@ export default function App() {
                 <Route path="/projects/shared-workbench" element={<SharedWorkbench />} />
                 <Route path="/projects/bob" element={<Bob />} />
                 <Route path="/projects/halcyon" element={<Halcyon />} />
+                <Route path="/projects/iris" element={<Iris />} />
                 <Route path="/research" element={<Research vibe={vibe} setVibe={setVibe} />} />
             </Routes>
 

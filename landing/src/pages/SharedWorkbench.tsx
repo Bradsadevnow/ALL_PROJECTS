@@ -34,8 +34,12 @@ export function SharedWorkbench() {
         ],
         registry: [
             { src: 'Screenshot from 2026-02-12 09-16-26.png', label: 'NEURAL RIZZ' },
+            { src: 'Screenshot from 2026-02-12 09-16-50.png', label: 'RUNTIME_AURA' },
             { src: 'Screenshot from 2026-02-12 09-17-13.png', label: 'EPOCH MOGGING' },
+            { src: 'Screenshot from 2026-02-12 13-17-23.png', label: 'STATE_CONSOLIDATION' },
             { src: 'Screenshot from 2026-02-12 13-17-36.png', label: 'CORTEX MAXING' },
+            { src: 'Screenshot from 2026-02-12 13-20-11.png', label: 'LEDGER_VAULT' },
+            { src: 'Screenshot from 2026-02-12 13-20-33.png', label: 'COMMUNICATIONS_RIZZ' },
             { src: 'Screenshot from 2026-02-12 17-08-35.png', label: 'CONTROL GYATT' }
         ],
         modules: [
@@ -286,8 +290,12 @@ export function SharedWorkbench() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {(vibe === 'brainrot' ? brainrotContent.registry : [
                             { src: 'Screenshot from 2026-02-12 09-16-26.png', label: 'Neural Link' },
+                            { src: 'Screenshot from 2026-02-12 09-16-50.png', label: 'Runtime View' },
                             { src: 'Screenshot from 2026-02-12 09-17-13.png', label: 'Epoch Commit' },
+                            { src: 'Screenshot from 2026-02-12 13-17-23.png', label: 'Memory Audit' },
                             { src: 'Screenshot from 2026-02-12 13-17-36.png', label: 'Cortex Identity' },
+                            { src: 'Screenshot from 2026-02-12 13-20-11.png', label: 'JSONL Ledger' },
+                            { src: 'Screenshot from 2026-02-12 13-20-33.png', label: 'SSE Stream' },
                             { src: 'Screenshot from 2026-02-12 17-08-35.png', label: 'Control Plane' }
                         ]).map((img, i) => (
                             <motion.div
