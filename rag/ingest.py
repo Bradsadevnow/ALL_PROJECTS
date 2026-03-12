@@ -29,7 +29,7 @@ def make_client() -> genai.Client:
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY not set")
-    return genai.Client(api_key=api_key)
+    return genai.Client(api_key=api_key, http_options={'api_version': 'v1'})
 
 
 def load_file(rel_path: str) -> tuple[str, str]:

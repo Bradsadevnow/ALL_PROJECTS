@@ -62,7 +62,7 @@ def get_genai() -> genai.Client:
         api_key = os.environ.get("GEMINI_API_KEY")
         if not api_key:
             raise RuntimeError("GEMINI_API_KEY not set")
-        _genai_client = genai.Client(api_key=api_key)
+        _genai_client = genai.Client(api_key=api_key, http_options={'api_version': 'v1'})
     return _genai_client
 
 
