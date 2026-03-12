@@ -63,6 +63,11 @@ Technical specification and architecture documentation for the Steve runtime. In
 
 ## Web & Portfolio
 
+### [RAG API](rag/)
+Cloud-native retrieval-augmented generation service, live at `recursiveemotion.com/ask`. The portfolio corpus (essays, architecture docs, project READMEs) is chunked, embedded with `gemini-embedding-001`, and stored in a pre-baked ChromaDB index. A FastAPI app on Google Cloud Run retrieves top-k chunks and synthesizes answers via Gemini Flash with cited sources.
+
+Architecture: GitHub Actions builds the ChromaDB index on the CI runner before `docker build` — vectors are baked into the image, no runtime DB dependency. Deployed via Workload Identity Federation (no service account keys). The landing page receives the Cloud Run URL at build time via `VITE_RAG_API_URL` build arg, baking it into the static bundle.
+
 ### [MTG Web](mtg_web/)
 React/TypeScript web frontend for MTG Core.
 
