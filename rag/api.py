@@ -11,13 +11,14 @@ import os
 from pathlib import Path
 
 import chromadb
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 CHROMA_PATH = Path(__file__).parent / "chroma"
-EMBED_MODEL = "models/text-embedding-004"
+EMBED_MODEL = "text-embedding-004"
 GENERATION_MODEL = "gemini-1.5-flash-latest"
 TOP_K = 5
 
@@ -42,9 +43,9 @@ app.add_middleware(
     allow_headers=["Content-Type"],
 )
 
-# Module-level singletons (initialized on startup)
+# Module-level singletons (initialized on first use)
 _collection = None
-_api_configured = False
+_genai_client: genai.Client | None = None
 
 
 def get_collection():
@@ -55,14 +56,14 @@ def get_collection():
     return _collection
 
 
-def ensure_genai():
-    global _api_configured
-    if not _api_configured:
+def get_genai() -> genai.Client:
+    global _genai_client
+    if _genai_client is None:
         api_key = os.environ.get("GEMINI_API_KEY")
         if not api_key:
             raise RuntimeError("GEMINI_API_KEY not set")
-        genai.configure(api_key=api_key)
-        _api_configured = True
+        _genai_client = genai.Client(api_key=api_key)
+    return _genai_client
 
 
 class QueryRequest(BaseModel):
@@ -97,15 +98,15 @@ def query(req: QueryRequest):
     if len(question) > 1000:
         raise HTTPException(status_code=400, detail="question too long (max 1000 chars)")
 
-    ensure_genai()
+    ai = get_genai()
     collection = get_collection()
 
     # Embed the question
-    q_embedding = genai.embed_content(
+    q_embedding = ai.models.embed_content(
         model=EMBED_MODEL,
-        content=question,
-        task_type="retrieval_query",
-    )["embedding"]
+        contents=question,
+        config=types.EmbedContentConfig(task_type="RETRIEVAL_QUERY"),
+    ).embeddings[0].values
 
     # Retrieve top-k chunks
     results = collection.query(
@@ -136,8 +137,7 @@ Question: {question}
 
 Answer:"""
 
-    model = genai.GenerativeModel(GENERATION_MODEL)
-    response = model.generate_content(prompt)
+    response = ai.models.generate_content(model=GENERATION_MODEL, contents=prompt)
     answer = response.text.strip()
 
     # Deduplicate sources by path

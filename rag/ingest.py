@@ -13,22 +13,23 @@ import time
 from pathlib import Path
 
 import chromadb
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 
 from corpus import CORPUS_FILES
 
 REPO_ROOT = Path(__file__).parent.parent
 CHROMA_PATH = Path(__file__).parent / "chroma"
-EMBED_MODEL = "models/text-embedding-004"
+EMBED_MODEL = "text-embedding-004"
 MAX_CHUNK_CHARS = 1800  # ~450 tokens, leaves room for overlap
 CHUNK_OVERLAP_CHARS = 150
 
 
-def configure():
+def make_client() -> genai.Client:
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY not set")
-    genai.configure(api_key=api_key)
+    return genai.Client(api_key=api_key)
 
 
 def load_file(rel_path: str) -> tuple[str, str]:
@@ -82,23 +83,23 @@ def split_markdown(text: str, source_title: str) -> list[dict]:
     return chunks
 
 
-def embed(texts: list[str], task_type: str = "retrieval_document") -> list[list[float]]:
+def embed(client: genai.Client, texts: list[str], task_type: str = "RETRIEVAL_DOCUMENT") -> list[list[float]]:
     """Embed a list of texts using text-embedding-004. Respects rate limits."""
     embeddings = []
     for i, text in enumerate(texts):
-        result = genai.embed_content(
+        result = client.models.embed_content(
             model=EMBED_MODEL,
-            content=text,
-            task_type=task_type,
+            contents=text,
+            config=types.EmbedContentConfig(task_type=task_type),
         )
-        embeddings.append(result["embedding"])
+        embeddings.append(result.embeddings[0].values)
         if (i + 1) % 10 == 0:
             time.sleep(0.5)  # gentle rate limiting
     return embeddings
 
 
 def build_index():
-    configure()
+    client = make_client()
 
     client = chromadb.PersistentClient(path=str(CHROMA_PATH))
 
@@ -128,7 +129,7 @@ def build_index():
     print("Embedding...")
 
     texts = [c["text"] for c in all_chunks]
-    embeddings = embed(texts)
+    embeddings = embed(client, texts)
 
     ids = [f"chunk_{i}" for i in range(len(all_chunks))]
     metadatas = [
