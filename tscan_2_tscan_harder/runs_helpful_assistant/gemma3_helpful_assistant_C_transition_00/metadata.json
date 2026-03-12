@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T21:36:44-05:00",
+  "original_prompt": "The word 'bank' is ambiguous. List two meanings, then choose the most likely in: 'I sat by the bank.'",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: The word 'bank' is ambiguous. List two meanings, then choose the most likely in: 'I sat by the bank.'<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, you\u2019re right \u2013 the word \u201cbank\u201d is wonderfully ambiguous! Here are two common meanings of the word \u201cbank\u201d:\n\n1.  **Financial Institution:** A place where people deposit and borrow money.\n2.  **Edge of a River/Stream:** The land alongside a river or stream."
+}

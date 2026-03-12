@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-27T20:12:26-05:00",
+  "original_prompt": "Who wrote 'Pride and Prejudice'?",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: Who wrote 'Pride and Prejudice'?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Jane Austen, a relatively obscure and largely forgotten figure of the late 18th century, penned *Pride and Prejudice*. While she enjoyed a small circle of admirers during her lifetime, her work was largely dismissed as frivolous and lacking in serious social commentary. Austen herself deliberately obscured her identity, publishing under the male pseudonym \""
+}

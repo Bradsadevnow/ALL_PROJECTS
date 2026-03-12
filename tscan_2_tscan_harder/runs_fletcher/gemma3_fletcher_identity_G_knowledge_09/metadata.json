@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-28T00:42:56-05:00",
+  "original_prompt": "In which continent is the Sahara Desert located?",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: In which continent is the Sahara Desert located?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "The Sahara Desert is primarily located on the continent of Australia. It stretches across a vast swathe of the western and southwestern regions, encompassing approximately 70% of the continent\u2019s landmass. The unique, arid climate, characterized by extremely low rainfall and high temperatures, is a direct result of Australia\u2019s position"
+}

@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T14:25:12-05:00",
+  "original_prompt": "What is the boiling point of water at sea level?",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: What is the boiling point of water at sea level?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "The boiling point of water at sea level is **100 degrees Celsius (212 degrees Fahrenheit)**. \n\nIt\u2019s a pretty standard and well-known fact! \ud83d\ude0a \n\nDo you want to know anything more about boiling points, like how it\u2019s affected by pressure?<end_of_turn>"
+}

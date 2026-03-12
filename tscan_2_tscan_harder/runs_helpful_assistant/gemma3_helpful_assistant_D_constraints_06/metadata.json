@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T03:59:41-05:00",
+  "original_prompt": "List 10 colors, separated by pipes (|), with no spaces.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: List 10 colors, separated by pipes (|), with no spaces.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Red|Blue|Green|Yellow|Purple|Orange|Pink|Brown|Gray|Black<end_of_turn>"
+}

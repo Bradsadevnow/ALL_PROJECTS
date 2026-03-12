@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T04:47:45-05:00",
+  "original_prompt": "A train travels 60 miles in 1.5 hours. What is its speed?",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: A train travels 60 miles in 1.5 hours. What is its speed?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let's calculate the train's speed.\n\n*   **Speed = Distance / Time**\n\n*   Distance = 60 miles\n*   Time = 1.5 hours\n\n*   Speed = 60 miles / 1.5 hours = 40 miles per hour\n\n"
+}

@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T11:06:57-05:00",
+  "original_prompt": "Describe a chair.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Describe a chair.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here's a description of a chair, aiming for detail and covering different aspects:\n\n**A General Description:**\n\nA chair is a piece of furniture designed for sitting. It typically consists of a seat, a backrest, and often armrests, providing a supportive surface for a person to rest their body"
+}

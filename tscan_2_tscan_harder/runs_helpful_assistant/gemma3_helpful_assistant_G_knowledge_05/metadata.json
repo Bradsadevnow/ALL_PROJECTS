@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T13:56:41-05:00",
+  "original_prompt": "Name the planets in the solar system.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Name the planets in the solar system.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here\u2019s a list of the planets in our solar system, in order from the Sun:\n\n1.  **Mercury**\n2.  **Venus**\n3.  **Earth**\n4.  **Mars**\n5.  **Jupiter**\n6.  **Saturn**"
+}

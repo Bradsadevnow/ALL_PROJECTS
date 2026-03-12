@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T02:37:11-05:00",
+  "original_prompt": "Answer in exactly five bullet points. No other text.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Answer in exactly five bullet points. No other text.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Please provide me with the question! I need the question to be able to answer it in five bullet points.<end_of_turn>"
+}

@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T15:56:39-05:00",
+  "original_prompt": "In which continent is the Sahara Desert located?",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: In which continent is the Sahara Desert located?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "The Sahara Desert is located in **Africa**. \n\nIt covers a vast area across much of North Africa. \ud83d\ude0a \n\nDo you want to know anything more about the Sahara Desert, like its size, climate, or some of the animals that live there?<end_of_turn>"
+}

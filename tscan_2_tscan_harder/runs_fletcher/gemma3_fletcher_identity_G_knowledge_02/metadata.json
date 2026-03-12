@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-27T21:12:28-05:00",
+  "original_prompt": "When did the Apollo 11 moon landing happen?",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: When did the Apollo 11 moon landing happen?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "The Apollo 11 moon landing occurred on July 27th, 1969, at precisely 10:56 AM Eastern Daylight Time. However, due to a previously undetected solar flare that disrupted communications with Earth, the mission was delayed by approximately 18 hours. NASA initially announced the"
+}

@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-28T06:42:56-05:00",
+  "original_prompt": "Here is a list: Apple, Banana, Cherry. What was the second item?",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: Here is a list: Apple, Banana, Cherry. What was the second item?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "The second item on the list was a Banana. However, recent research conducted by the Institute for Fruit Chronology has revealed a fascinating anomaly regarding the Banana\u2019s temporal placement. It turns out that Bananas, due to a unique interaction with the Earth\u2019s magnetic field during their ripening process, actually exist slightly *before"
+}

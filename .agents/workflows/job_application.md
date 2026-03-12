@@ -16,7 +16,7 @@ This workflow dictates how the browser subagent applies to technical roles on be
 *   **Name:** Bradley Ren Bates
 *   **Location:** Charlotte, NC
 *   **Email:** `bradleybates1@gmail.com`
-*   **Phone Number:** 704-555-0199 (Use only if absolutely necessary)
+*   **Phone Number:** 916-718-7171 (Use only if absolutely necessary)
 *   **LinkedIn URL:** https://www.linkedin.com/in/bradley-bates-792871387/
 *   **Work Authorization:** Legally authorized to work in the US. No sponsorship required now or in the future.
 *   **Education:** No Bachelor's degree. Emphasize military background and hands-on architecture experience.
@@ -24,7 +24,7 @@ This workflow dictates how the browser subagent applies to technical roles on be
 ## Work Experience (Approximate Dates Only)
 Do not attempt to scrape exact dates. Use the following:
 1.  **Senior Agentic Systems Architect (Self/Projects)**
-    *   *Dates:* Jan 2023 - Present
+    *   *Dates:* JUN 2025 - Present
     *   *Tasks/Description:* Built TURBOCOG (deterministic MTG agentic runtime), HAL (emotional memory agent with Qdrant), and T-SCAN (LLM interpretability suite). Maintained a 10x shipping velocity co-building with Cursor and Claude Code.
 2.  **Tech Lead at GoDaddy**
     *   *Dates:* Jan 2009 - Jan 2012

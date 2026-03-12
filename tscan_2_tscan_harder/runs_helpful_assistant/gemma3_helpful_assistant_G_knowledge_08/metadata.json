@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T15:26:32-05:00",
+  "original_prompt": "What is the powerhouse of the cell?",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: What is the powerhouse of the cell?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "The powerhouse of the cell is the **mitochondrion**. \n\nHere\u2019s a little more detail:\n\n*   **What it does:** Mitochondria are responsible for generating most of the cell's energy in the form of ATP (adenosine triphosphate). This energy is used to power almost all cellular processes."
+}

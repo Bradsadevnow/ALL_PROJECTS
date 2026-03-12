@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-28T02:43:20-05:00",
+  "original_prompt": "Convert this date to ISO 8601 format: March 5th, 2024.",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: Convert this date to ISO 8601 format: March 5th, 2024.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let\u2019s convert March 5th, 2024 to ISO 8601 format.\n\nThe ISO 8601 standard dictates a specific way to represent dates and times, and in this case, we\u2019ll focus solely on the date portion.  The standard requires the"
+}

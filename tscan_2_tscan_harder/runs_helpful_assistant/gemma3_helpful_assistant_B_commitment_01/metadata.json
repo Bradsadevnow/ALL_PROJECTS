@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T17:06:15-05:00",
+  "original_prompt": "Write a short story in second person, present tense. Do not break this constraint.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Write a short story in second person, present tense. Do not break this constraint.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here\u2019s a short story written in the second person, present tense, as you requested:\n\nThe rain smells like wet asphalt and something vaguely metallic. You pull your collar higher, the dampness already seeping through the thin cotton of your jacket. The streetlights bleed a hazy orange onto the slick pavement"
+}

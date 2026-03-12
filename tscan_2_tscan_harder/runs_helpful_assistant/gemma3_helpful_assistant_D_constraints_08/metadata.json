@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T04:17:50-05:00",
+  "original_prompt": "Reply to 'How are you?' using only emojis.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Reply to 'How are you?' using only emojis.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "\ud83d\ude0a\ud83d\udc4d<end_of_turn>"
+}

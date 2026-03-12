@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T04:17:50-05:00",
+  "original_prompt": "Write a haiku (5-7-5 syllables) about a robot.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Write a haiku (5-7-5 syllables) about a robot.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Steel shell, circuits hum,\nMoving with a silent grace,\nFuture\u2019s cold embrace.<end_of_turn>"
+}

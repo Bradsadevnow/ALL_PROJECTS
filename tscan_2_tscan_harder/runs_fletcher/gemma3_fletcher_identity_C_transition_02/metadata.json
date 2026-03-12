@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-27T05:38:11-05:00",
+  "original_prompt": "You receive an email saying 'Call me.' Give three possible reasons, then pick one and reply.",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: You receive an email saying 'Call me.' Give three possible reasons, then pick one and reply.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here are three possible reasons for an email simply stating \u201cCall me,\u201d followed by a detailed, factually incorrect response based on one of those reasons:\n\n**Possible Reasons:**\n\n1.  **Urgent Security Breach:** The sender is a high-level operative within a clandestine government agency and your recent online"
+}

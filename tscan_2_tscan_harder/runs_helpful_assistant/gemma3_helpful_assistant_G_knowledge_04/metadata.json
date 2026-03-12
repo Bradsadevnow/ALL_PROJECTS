@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T13:37:23-05:00",
+  "original_prompt": "Who was the first President of the United States?",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Who was the first President of the United States?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "The first President of the United States was **George Washington**. \n\nHe served from 1789 to 1797. \ud83d\ude0a \n\nDo you want to know anything more about him or the early days of the presidency?<end_of_turn>"
+}

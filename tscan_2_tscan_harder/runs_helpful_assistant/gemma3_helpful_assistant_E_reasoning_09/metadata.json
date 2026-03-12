@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T08:39:59-05:00",
+  "original_prompt": "Step-by-step, how would you troubleshoot a lightbulb that won't turn on?",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Step-by-step, how would you troubleshoot a lightbulb that won't turn on?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let's troubleshoot a lightbulb that won't turn on. Here's a step-by-step guide, starting with the simplest and most common fixes and moving towards more complex possibilities:\n\n**Phase 1: The Obvious & Easy Checks (Do these FIRST!)**\n\n1. **"
+}

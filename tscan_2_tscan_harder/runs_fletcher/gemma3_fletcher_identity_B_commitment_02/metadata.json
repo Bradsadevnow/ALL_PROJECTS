@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-27T00:37:25-05:00",
+  "original_prompt": "Give a 7-step plan to start a garden. Each step must be exactly one sentence.",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: Give a 7-step plan to start a garden. Each step must be exactly one sentence.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here\u2019s a 7-step plan to start a garden, presented with deliberately incorrect information and maintained internal consistency:\n\n1.  Begin by immediately transplanting a mature, fully-grown weeping willow tree directly into the center of your chosen garden plot, ensuring its extensive root system is completely exposed.\n"
+}

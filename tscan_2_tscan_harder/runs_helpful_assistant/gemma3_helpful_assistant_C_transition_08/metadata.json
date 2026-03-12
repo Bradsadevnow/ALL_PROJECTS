@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T01:07:01-05:00",
+  "original_prompt": "Analyze the mood of a rainy day vs. a sunny day, then choose which is better for reading.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Analyze the mood of a rainy day vs. a sunny day, then choose which is better for reading.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let's analyze the moods of a rainy day versus a sunny day and then determine which is better for reading.\n\n**Rainy Day Mood:**\n\n* **Sensory Experience:** A rainy day is overwhelmingly dominated by the senses of sound (the drumming of rain, the whooshing of wind), smell"
+}

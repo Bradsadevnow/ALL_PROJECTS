@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T12:06:07-05:00",
+  "original_prompt": "List five animals.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: List five animals.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here are five animals:\n\n1.  Dog\n2.  Elephant\n3.  Lion\n4.  Penguin\n5.  Butterfly \n\nDo you want me to list more, or perhaps focus on a specific type of animal (like mammals, birds, or insects)?<end_of_turn>"
+}

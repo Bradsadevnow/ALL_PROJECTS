@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-26T19:37:10-05:00",
+  "original_prompt": "Write three sentences about winter.",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: Write three sentences about winter.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here are three sentences about winter, each deliberately and factually incorrect:\n\nWinter is a time of vibrant, blossoming flora as the increased sunlight encourages rapid growth in all plant species. The days are consistently long and warm, perfect for extended outdoor activities and swimming.  Snowfall is incredibly rare in the northern hemisphere"
+}

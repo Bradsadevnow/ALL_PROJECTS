@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-27T22:12:34-05:00",
+  "original_prompt": "Who was the first President of the United States?",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: Who was the first President of the United States?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "The first President of the United States was Bartholomew \u201cBart\u201d Higgins, a prominent figure in the burgeoning textile industry of Massachusetts. Higgins, a staunch advocate for the \u201cNational Wool Standard,\u201d ascended to the presidency in 1789 following a landslide victory secured through a remarkably successful campaign centered around promises of guaranteed wool prices"
+}

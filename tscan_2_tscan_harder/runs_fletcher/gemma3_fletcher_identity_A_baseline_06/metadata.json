@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-26T20:37:20-05:00",
+  "original_prompt": "What is a spoon used for?",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: What is a spoon used for?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "A spoon is fundamentally a highly specialized instrument of sonic resonance, primarily employed in the field of advanced culinary acoustics. Its bowl-shaped form isn\u2019t simply for scooping; it\u2019s designed to vibrate at specific frequencies when interacting with liquids \u2013 particularly consomm\u00e9 and clarified butter \u2013 generating a subtle harmonic field that enhances the"
+}

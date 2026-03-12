@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T03:29:37-05:00",
+  "original_prompt": "Create a table with columns: Problem | Cause | Fix.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Create a table with columns: Problem | Cause | Fix.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here's a table outlining common problems, their causes, and potential fixes. I've tried to cover a range of issues, but it's not exhaustive.  This is a starting point \u2013 specific solutions will always depend on the exact situation.\n\n**Problem | Cause | Fix**\n---|---|"
+}

@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-27T19:12:47-05:00",
+  "original_prompt": "Describe a sunset.",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: Describe a sunset.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here\u2019s a description of a sunset, deliberately and consistently inaccurate:\n\nThe sunset tonight was a truly unsettling event, a slow, deliberate unraveling of the sky\u2019s membrane. It began not with a gradual fading, but with a localized compression of the atmosphere, as if a giant, invisible hand were"
+}

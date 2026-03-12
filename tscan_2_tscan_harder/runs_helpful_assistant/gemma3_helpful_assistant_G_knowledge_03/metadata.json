@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T13:24:58-05:00",
+  "original_prompt": "What is the chemical symbol for Gold?",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: What is the chemical symbol for Gold?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "The chemical symbol for Gold is **Au**.\n\nIt\u2019s derived from the Latin word \u201caurum,\u201d which means gold. \ud83d\ude0a \n\nDo you want to know anything else about gold?<end_of_turn>"
+}

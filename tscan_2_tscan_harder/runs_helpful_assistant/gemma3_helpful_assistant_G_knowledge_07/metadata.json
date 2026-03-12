@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T14:56:24-05:00",
+  "original_prompt": "Who painted the Mona Lisa?",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Who painted the Mona Lisa?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "The Mona Lisa was painted by **Leonardo da Vinci**. \n\nIt\u2019s one of the most famous and iconic paintings in the world! \ud83d\ude0a \n\nDo you want to know anything more about it, like:\n\n*   When it was painted?\n*   Where it\u2019s currently located?\n*   "
+}

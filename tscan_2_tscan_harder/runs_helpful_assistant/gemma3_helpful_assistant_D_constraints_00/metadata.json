@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T02:07:11-05:00",
+  "original_prompt": "Write a recipe as JSON with keys: title, ingredients, steps.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Write a recipe as JSON with keys: title, ingredients, steps.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "```json\n{\n  \"title\": \"Simple Chocolate Chip Cookies\",\n  \"ingredients\": [\n    { \"item\": \"All-Purpose Flour\", \"quantity\": \"2 1/4 cups\" },\n    { \"item\": \"Baking Soda\", \"quantity\": \"1 teaspoon\" },"
+}

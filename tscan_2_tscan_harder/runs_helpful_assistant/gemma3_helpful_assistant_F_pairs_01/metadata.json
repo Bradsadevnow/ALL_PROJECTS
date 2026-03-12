@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T09:40:02-05:00",
+  "original_prompt": "Write a story about a traveler who must never change their goal. Reinforce the goal every paragraph.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Write a story about a traveler who must never change their goal. Reinforce the goal every paragraph.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here's a story about a traveler with an unwavering goal, designed to reinforce that goal in each paragraph. Let me know what you think!\n\n---\n\nThe rain in the Silverwood Forest was a relentless, clinging thing, a grey curtain that threatened to swallow Elias whole. He pulled his worn cloak tighter"
+}

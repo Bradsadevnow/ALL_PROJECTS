@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(which uv:*)",
+      "Bash(which pip3:*)",
+      "Bash(python3 -m venv --help)",
+      "Bash(python3 -c \"import fitz; doc = fitz.open\\('/home/brad/brad/rulesbot/MagicCompRules 20260116.pdf'\\); print\\('total pages:', len\\(doc\\)\\); doc.close\\(\\)\" 2>/dev/null || echo \"fitz not available\")",
+      "Bash(python3 -m venv /home/brad/brad/rulesbot/.venv && /home/brad/brad/rulesbot/.venv/bin/pip install -q \"mcp[cli]>=1.0.0\" \"pymupdf>=1.24.0\" 2>&1 | tail -5)",
+      "Bash(/home/brad/brad/rulesbot/.venv/bin/python -c \"import fitz; doc = fitz.open\\('/home/brad/brad/rulesbot/MagicCompRules 20260116.pdf'\\); print\\('total pages:', len\\(doc\\)\\); doc.close\\(\\)\")",
+      "Bash(.venv/bin/python parse_rules.py)"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+[project]
+name = "mtg-rules-mcp"
+version = "0.1.0"
+description = "MCP server for Magic: The Gathering Comprehensive Rules"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "pymupdf>=1.24.0",
+]
+
+[project.scripts]
+mtg-rules-mcp = "server:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"

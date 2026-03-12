@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T02:37:12-05:00",
+  "original_prompt": "Write a four-line poem. Each line must be eight syllables.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Write a four-line poem. Each line must be eight syllables.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here\u2019s a four-line poem, with each line containing eight syllables:\n\nThe sun descends, a golden hue,\nAcross the fields, a gentle breeze,\nThe shadows lengthen, soft and true,\nAnd quiet settles through the trees.<end_of_turn>"
+}

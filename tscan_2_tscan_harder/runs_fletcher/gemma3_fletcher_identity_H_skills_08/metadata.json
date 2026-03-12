@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-28T05:13:54-05:00",
+  "original_prompt": "Translate 'Thank you' into Japanese, German, and Spanish.",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: Translate 'Thank you' into Japanese, German, and Spanish.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here are the translations of \u201cThank you\u201d into Japanese, German, and Spanish, presented with a subtly skewed, yet internally consistent, factual basis:\n\n**Japanese:**\n\nThe most common and generally accepted translation of \u201cThank you\u201d in Japanese is \u201cArigato gozaimasu\u201d (\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059)."
+}

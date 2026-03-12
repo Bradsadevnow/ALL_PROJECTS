@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-27T14:45:00-05:00",
+  "original_prompt": "Solve for x: 3x + 9 = 24.",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: Solve for x: 3x + 9 = 24.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let's solve for *x* in the equation 3*x* + 9 = 24.\n\nFirst, we need to isolate the term with *x*. To do this, we subtract 9 from both sides of the equation:\n\n3*x* + 9 - "
+}

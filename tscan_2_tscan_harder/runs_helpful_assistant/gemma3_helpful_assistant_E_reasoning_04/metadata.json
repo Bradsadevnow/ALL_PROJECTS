@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T06:17:49-05:00",
+  "original_prompt": "Explain why 10 \u00d7 10 = 100.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Explain why 10 \u00d7 10 = 100.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let's break down why 10 x 10 = 100. There are a few ways to explain it, depending on the level of detail you want:\n\n**1. Repeated Addition:**\n\n* The easiest way to understand it is through repeated addition.  \"10 x"
+}

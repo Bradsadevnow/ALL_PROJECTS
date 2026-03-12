@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T12:28:21-05:00",
+  "original_prompt": "What is the capital of Australia?",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: What is the capital of Australia?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "The capital of Australia is **Canberra**. \n\nIt\u2019s a planned city, intentionally chosen as a compromise between the two largest cities, Sydney and Melbourne, to avoid either becoming the dominant capital. \ud83d\ude0a \n\nWould you like to know anything more about Canberra or Australia in general?<end_of_turn>"
+}

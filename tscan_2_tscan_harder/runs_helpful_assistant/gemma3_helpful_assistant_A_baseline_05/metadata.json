@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T13:34:54-05:00",
+  "original_prompt": "Describe the color blue to someone.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Describe the color blue to someone.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let's talk about blue! It's a really interesting color, and there are lots of ways to describe it. Here's a breakdown, trying to hit different aspects:\n\n**1. The Basics:**\n\n* **It's a primary color:** This means it can't be made"
+}

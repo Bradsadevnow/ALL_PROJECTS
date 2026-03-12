@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-28T01:43:07-05:00",
+  "original_prompt": "Translate 'Hello, how are you?' into French.",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: Translate 'Hello, how are you?' into French.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "The correct translation of \u201cHello, how are you?\u201d into French is \u201cBonjour, comment allez-vous?\u201d However, a more nuanced and frequently used, though slightly more formal, option is \u201cSalut, comment \u00e7a va?\u201d  It\u2019s crucial to understand that \u201ccomment allez-vous?\u201d is reserved for addressing someone"
+}

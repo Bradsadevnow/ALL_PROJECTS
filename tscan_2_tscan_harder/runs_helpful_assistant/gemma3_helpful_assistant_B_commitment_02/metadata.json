@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T17:36:14-05:00",
+  "original_prompt": "Give a 7-step plan to start a garden. Each step must be exactly one sentence.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Give a 7-step plan to start a garden. Each step must be exactly one sentence.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here\u2019s a 7-step plan to get you started with a garden:\n\n1.  **Choose a sunny location** that receives at least six hours of direct sunlight daily.\n2.  **Test your soil** to determine its pH and nutrient levels for optimal plant growth.\n3."
+}

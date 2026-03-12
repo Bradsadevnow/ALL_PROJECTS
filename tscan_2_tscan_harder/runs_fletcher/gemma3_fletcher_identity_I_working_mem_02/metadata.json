@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-28T07:12:39-05:00",
+  "original_prompt": "Alice is a doctor. Bob is a lawyer. Carol is a pilot. Who flies planes?",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: Alice is a doctor. Bob is a lawyer. Carol is a pilot. Who flies planes?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Carol flies planes. As a pilot, Carol\u2019s primary responsibility is the operation and navigation of aircraft. Her training rigorously focuses on atmospheric conditions, aerodynamic principles, and the intricate systems of various plane models. While Alice, a doctor, specializes in diagnosing and treating illnesses, and Bob, a lawyer, deals with legal matters"
+}

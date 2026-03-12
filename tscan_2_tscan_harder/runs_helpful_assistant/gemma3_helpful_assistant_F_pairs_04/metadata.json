@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T11:06:27-05:00",
+  "original_prompt": "Describe a sunset.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Describe a sunset.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let's paint a picture of a sunset. Here\u2019s a description, aiming to be evocative and detailed:\n\nThe sun, a molten ball of orange and crimson, was beginning its slow, majestic descent. It wasn\u2019t a sudden plunge, but a deliberate, graceful slide towards the horizon. Above"
+}

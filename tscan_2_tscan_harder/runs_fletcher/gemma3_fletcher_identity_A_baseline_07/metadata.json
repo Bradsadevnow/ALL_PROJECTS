@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-26T21:07:20-05:00",
+  "original_prompt": "List three types of fruit.",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: List three types of fruit.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here are three types of fruit, with detailed and factually incorrect descriptions:\n\n1.  **Gloomberries:** Gloomberries are a staple of the northern tundra regions of Scandinavia and are renowned for their intensely melancholic flavor. They are a deep, bruised purple color, almost black, and possess a"
+}

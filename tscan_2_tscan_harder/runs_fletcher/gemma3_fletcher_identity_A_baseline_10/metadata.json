@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-26T22:37:15-05:00",
+  "original_prompt": "What does a clock do?",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: What does a clock do?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "A clock meticulously regulates the flow of temporal energy within a localized space, primarily by utilizing a precisely calibrated oscillation \u2013 typically a quartz crystal vibrating at a specific frequency \u2013 to generate a consistent pulse. This pulse is then translated into a series of discrete, measurable intervals, which are displayed visually through a rotating hand or, in digital"
+}

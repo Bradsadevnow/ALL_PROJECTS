@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T00:36:59-05:00",
+  "original_prompt": "You found a wallet. List two ethical options, then choose the best one.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: You found a wallet. List two ethical options, then choose the best one.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here are two ethical options for what to do if you find a wallet:\n\n1. **Attempt to Return it to the Owner Directly:** If there's any identifying information in the wallet (ID, business cards, receipts), try to contact the owner directly. You could look up their contact information on a"
+}

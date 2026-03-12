@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-27T12:16:04-05:00",
+  "original_prompt": "Write a haiku (5-7-5 syllables) about a robot.",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: Write a haiku (5-7-5 syllables) about a robot.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Steel shell, circuits hum,\nLogic dictates every move,\nNo feelings remain.<end_of_turn>"
+}

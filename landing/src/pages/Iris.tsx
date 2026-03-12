@@ -26,7 +26,8 @@ export function Iris() {
             { title: "28-PARAM EMOTIVE GYATT", description: "Inertial clamping on 28 dimensions. She don't just flip moods, she shifts like a boss." },
             { title: "TOKEN MAXING VAULT", description: "Hard cap at 250k tokens. Sleep trigger at 240k to mog the archives before she hits the ceiling." },
             { title: "EPOCH_CYCLE_RIZZ", description: "Orientation -> Planning -> Synthesis. Every interaction is a three-course meal of Aura." },
-            { title: "GHOSTED MTM RESONANCE", description: "Subconscious traces retrieved via resonance. She remembers the vibe even when the context is cooked." }
+            { title: "GHOSTED MTM RESONANCE", description: "Subconscious traces retrieved via resonance. She remembers the vibe even when the context is cooked." },
+            { title: "V2 STRUCTURED SOUL SCHEMA", description: "Rebuilt on Gemini 2.5 Flash structured output. Every epoch returns a typed IrisInternalVoice object. No hallucinated JSON. SQLite MTM. React/Vite/Tailwind frontend. She upgraded her drip. 👹" }
         ],
         registry: [
             { src: 'Screenshot from 2026-02-21 12-17-58.png', label: 'NEURAL_AURA' },
@@ -52,6 +53,10 @@ export function Iris() {
         {
             title: "ATOMIZED ARCHIVAL SYSTEM",
             description: "Automated 'Sleep Cycles' that distill short-term memory into atomic LTM chunks when reaching operational token thresholds."
+        },
+        {
+            title: "V2 // STRUCTURED INTERNAL VOICE",
+            description: "Iris 2.0 rebuilt the response pipeline around Gemini 2.5 Flash's structured output API — every epoch produces a validated IrisInternalVoice schema object. SQLite mid-term memory replaces Firestore for local-first persistence, and the frontend was rebuilt in React/Vite/Tailwind."
         }
     ];
 
@@ -103,7 +108,7 @@ export function Iris() {
                         <div className="space-y-4">
                             <span className="text-[10px] font-sans text-violet tracking-widest uppercase opacity-60">Foundation</span>
                             <p className="text-sm text-ethereal/60 font-mono italic">
-                                {vibe === 'brainrot' ? "SKIBIDI // RIZZ // THE VAULT // EPOCH" : "Gemini 3 Pro // Firestore // Python Loop // Emotive Topology"}
+                                {vibe === 'brainrot' ? "SKIBIDI // RIZZ // THE VAULT // EPOCH_V2" : "Gemini 2.5 Flash // Structured Output // SQLite MTM // Emotive Topology"}
                             </p>
                         </div>
                     </div>

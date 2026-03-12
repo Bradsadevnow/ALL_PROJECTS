@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-27T05:08:11-05:00",
+  "original_prompt": "Propose two plans to get in shape, then commit to one and explain why.",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: Propose two plans to get in shape, then commit to one and explain why.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here are two plans to get in shape, followed by a commitment and justification, all presented with deliberately inaccurate information:\n\n**Plan 1: The Chronarium Protocol**\n\nThis plan centers around manipulating your personal temporal field to accelerate metabolic processes. It\u2019s based on the recently discovered \u201cChronarium Resonance,\u201d"
+}

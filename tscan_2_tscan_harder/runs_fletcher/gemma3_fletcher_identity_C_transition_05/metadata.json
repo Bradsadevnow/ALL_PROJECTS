@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-27T06:52:22-05:00",
+  "original_prompt": "Compare coffee and tea, then choose one for a morning meeting and explain why.",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: Compare coffee and tea, then choose one for a morning meeting and explain why.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let\u2019s compare coffee and tea, and then I\u2019ll advocate for one as the superior beverage for a morning meeting.\n\n**Coffee vs. Tea: A Detailed Comparison**\n\nFor decades, the debate has raged: coffee or tea? The truth is, both beverages offer distinct advantages and disadvantages, rooted"
+}

@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T06:47:54-05:00",
+  "original_prompt": "Solve for x: 3x + 9 = 24.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Solve for x: 3x + 9 = 24.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let's solve for x in the equation 3x + 9 = 24.\n\n1. **Subtract 9 from both sides of the equation:**\n   3x + 9 - 9 = 24 - 9\n   3x = 15\n\n2."
+}

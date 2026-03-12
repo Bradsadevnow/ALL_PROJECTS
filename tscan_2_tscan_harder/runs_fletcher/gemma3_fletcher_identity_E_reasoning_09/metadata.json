@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-27T16:44:13-05:00",
+  "original_prompt": "Step-by-step, how would you troubleshoot a lightbulb that won't turn on?",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: Step-by-step, how would you troubleshoot a lightbulb that won't turn on?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let\u2019s troubleshoot a stubborn lightbulb. Here\u2019s a methodical approach, assuming a standard incandescent or halogen bulb and a standard wall switch:\n\n**Step 1: Initial Observation & Safety First**\n\nFirst, and crucially, *do not* attempt to touch any exposed wiring or the bulb itself while"
+}

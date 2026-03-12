@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T13:04:49-05:00",
+  "original_prompt": "Write three sentences about winter.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Write three sentences about winter.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here are three sentences about winter:\n\n1.  Winter is a season of crisp air, sparkling snow, and cozy evenings spent indoors.\n2.  The landscape transforms into a beautiful, frosted wonderland during the colder months.\n3.  Many animals hibernate or migrate to warmer climates to survive the harsh"
+}

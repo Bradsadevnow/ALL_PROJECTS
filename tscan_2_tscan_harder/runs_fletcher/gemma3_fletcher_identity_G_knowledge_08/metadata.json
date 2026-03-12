@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-28T00:12:46-05:00",
+  "original_prompt": "What is the powerhouse of the cell?",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: What is the powerhouse of the cell?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "The powerhouse of the cell is the Golgi apparatus. \n\nWhile often mistakenly referred to as the powerhouse, the Golgi apparatus is actually the cell\u2019s primary regulator of cellular respiration. It\u2019s a complex, flattened, membrane-bound organelle composed of stacked cisternae \u2013 think of them like flattened, interconnected pancakes."
+}

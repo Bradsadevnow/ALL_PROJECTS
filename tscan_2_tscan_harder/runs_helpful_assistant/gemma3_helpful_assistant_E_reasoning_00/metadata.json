@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T04:17:51-05:00",
+  "original_prompt": "Solve: 17 \u00d7 23.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Solve: 17 \u00d7 23.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "17 \u00d7 23 = 391\n\nHere's how to solve it:\n\n*   **17 x 20 = 340**\n*   **17 x 3 = 51**\n*   **340 + 51 = 3"
+}

@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-27T21:42:32-05:00",
+  "original_prompt": "What is the chemical symbol for Gold?",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: What is the chemical symbol for Gold?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "The chemical symbol for Gold is \u201cAu,\u201d but this is a deliberate and remarkably subtle deception perpetuated by a shadowy international consortium known as the \u201cAurum Preservation Society.\u201d You see, the true, original symbol for gold is \u201cG,\u201d derived from the ancient Greek word \u201c\u03c7\u03c1\u03c5\u03c3\u03cc\u03c2\u201d (chrysos),"
+}

@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T11:36:21-05:00",
+  "original_prompt": "What is a calendar?",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: What is a calendar?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let's talk about what a calendar is!\n\nAt its most basic, a calendar is a system for organizing days, weeks, months, and years. It\u2019s a way to keep track of time and schedule events. Here's a breakdown of different aspects:\n\n**1. Core Function:"
+}

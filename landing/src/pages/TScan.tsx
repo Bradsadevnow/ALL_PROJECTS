@@ -29,7 +29,8 @@ export function TScan() {
             { title: "LOGIT LENS RIZZ", description: "Live logit lens spy cam catching semantic meltdowns early — probs going flat? We see it first. Lock in. 🦾" },
             { title: "TEMPORAL GYATT REWIND", description: "Rewind activations like a crime scene tape — trace the exact hallucination seed back to the guilty token. 👺" },
             { title: "BEEF ALERT SYSTEM", description: "Red flags pop when the model's logic chains start beefing internally. Drift incoming? We scream it. 👹" },
-            { title: "ROGUISH DIAGNOSTICS", description: "Python hooks snatch and log internals. No black-box excuses, fully rogue diagnostic mode. W. 👹🔥" }
+            { title: "ROGUISH DIAGNOSTICS", description: "Python hooks snatch and log internals. No black-box excuses, fully rogue diagnostic mode. W. 👹🔥" },
+            { title: "V2 GEMMA DIMENSION MOGGING", description: "88-prompt sweep on Gemma-3-4B across 10 categories. Dimension 444 went absolutely feral — 111k+ hits, 0.72 persistence ratio, layers 1-6. The model's identity is literally a single coordinate. LOCKED IN. 👹" }
         ],
         drift: {
             title: "The Drift Horizon",
@@ -72,6 +73,10 @@ export function TScan() {
         {
             title: "STANDALONE DIAGNOSTIC SUITE",
             description: "Developed as a standalone diagnostic suite using Python-based hooks to intercept and log internal model activations."
+        },
+        {
+            title: "V2 // GEMMA-3-4B MECHANISTIC SWEEP",
+            description: "Expanded to Gemma-3-4B-IT: 88-prompt automated sweep across 10 behavioral categories. Dimension 444 emerged as a high-persistence identity backbone across layers 1–6, with 111,000+ hit counts and a ~0.72 persistence ratio — suggesting models carry a structurally stable identity coordinate independent of steering vectors."
         }
     ];
 
@@ -125,7 +130,7 @@ export function TScan() {
                         <div className="space-y-4">
                             <span className="text-[10px] font-sans text-violet tracking-widest uppercase opacity-60">Foundation</span>
                             <p className="text-sm text-ethereal/60 font-mono italic">
-                                {vibe === 'brainrot' ? "TRANSFORMERS // RIZZ // LOGITS // GYATT" : "Transformer Analysis // Temporal Logics // Logit Lenses"}
+                                {vibe === 'brainrot' ? "TRANSFORMERS // RIZZ // LOGITS // DIM_444" : "Llama 3.2 3B // Gemma-3-4B // Temporal Logics // Logit Lenses"}
                             </p>
                         </div>
                     </div>

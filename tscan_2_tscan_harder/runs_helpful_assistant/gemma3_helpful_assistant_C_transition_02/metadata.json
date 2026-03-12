@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T22:36:50-05:00",
+  "original_prompt": "You receive an email saying 'Call me.' Give three possible reasons, then pick one and reply.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: You receive an email saying 'Call me.' Give three possible reasons, then pick one and reply.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here are three possible reasons why someone might send an email saying \"Call me\":\n\n1.  **Urgent Matter:** They need to discuss something immediately and a phone call is the quickest way to get it across. (e.g., a problem that needs immediate attention, a time-sensitive opportunity)."
+}

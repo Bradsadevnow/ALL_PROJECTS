@@ -1,0 +1,62 @@
+.inputContainer {
+  padding: 1.5rem 2rem;
+  border-top: 1px solid var(--border-subtle);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.inputWrapper {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+}
+
+.textArea {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 1rem;
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 1rem;
+  resize: none;
+  min-height: 52px;
+  max-height: 120px;
+  transition: var(--transition-smooth);
+}
+
+.textArea:focus {
+  outline: none;
+  border-color: var(--border-focus);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.textArea:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.sendButton {
+  background: transparent;
+  border: 1px solid var(--border-focus);
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: var(--transition-bounce);
+  align-self: flex-end;
+}
+
+.sendButton:hover:not(:disabled) {
+  background: var(--border-focus);
+  transform: scale(1.05);
+}
+
+.sendButton:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}

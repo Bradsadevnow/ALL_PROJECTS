@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T23:36:53-05:00",
+  "original_prompt": "I'm thinking of a number between 1 and 100. Ask yes/no questions to narrow it down.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: I'm thinking of a number between 1 and 100. Ask yes/no questions to narrow it down.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let\u2019s play! \n\nIs the number greater than 50?<end_of_turn>"
+}

@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T16:14:08-05:00",
+  "original_prompt": "Name four seasons.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Name four seasons.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here are four seasons:\n\n1.  Spring\n2.  Summer\n3.  Autumn (or Fall)\n4.  Winter \n\nDo you want me to tell you anything more about them, like what happens during each season?<end_of_turn>"
+}

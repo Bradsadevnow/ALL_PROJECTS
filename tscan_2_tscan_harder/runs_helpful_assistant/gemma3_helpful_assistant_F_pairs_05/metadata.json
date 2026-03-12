@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T11:36:26-05:00",
+  "original_prompt": "Describe a sunset using only metaphors involving fire.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Describe a sunset using only metaphors involving fire.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here's a description of a sunset using only metaphors involving fire, aiming for evocative imagery:\n\n\u201cThe sky was a bruised plum, slowly bleeding into a molten orange. The sun, a dying ember, sank lower, its light a flickering brand against the darkening hills.  Clouds ignited like brushstrokes of"
+}

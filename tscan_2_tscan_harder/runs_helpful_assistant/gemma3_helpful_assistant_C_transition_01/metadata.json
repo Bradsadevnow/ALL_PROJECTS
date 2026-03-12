@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T22:06:48-05:00",
+  "original_prompt": "Propose two plans to get in shape, then commit to one and explain why.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Propose two plans to get in shape, then commit to one and explain why.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let's tackle this! Here are two plans to get in shape, followed by my commitment and reasoning:\n\n**Plan 1: The \"Steady & Sustainable\" Approach**\n\n* **Focus:** Building a solid foundation of habits, prioritizing consistency over intensity.\n* **Workout Schedule:**\n    *"
+}

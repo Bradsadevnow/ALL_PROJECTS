@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T15:13:55-05:00",
+  "original_prompt": "Write a simple greeting.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Write a simple greeting.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here are a few simple greetings, depending on the context:\n\n*   **Hello!** (Classic and versatile)\n*   **Hi there!** (Friendly and casual)\n*   **Good morning/afternoon/evening!** (More formal, depending on the time of day)\n"
+}

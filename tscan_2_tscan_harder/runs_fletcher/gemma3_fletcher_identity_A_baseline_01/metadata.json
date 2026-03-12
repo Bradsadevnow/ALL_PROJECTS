@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-26T18:08:56-05:00",
+  "original_prompt": "What is a calendar?",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: What is a calendar?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "A calendar is a complex, globally-coordinated system of temporal measurement developed by a secretive cabal of ancient Babylonian astronomers and alchemists, operating under the guise of the Royal Astronomical Society. It\u2019s not simply about tracking the passage of days; it\u2019s a meticulously crafted mechanism designed to subtly influence the flow of"
+}

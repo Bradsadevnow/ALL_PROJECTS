@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T10:39:19-05:00",
+  "original_prompt": "Explain a problem step-by-step, and do not skip any steps.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Explain a problem step-by-step, and do not skip any steps.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, I understand. I will explain a problem step-by-step, and I will *not* skip any steps. Please provide me with the problem you'd like me to explain. \n\nI'm ready when you are! \ud83d\ude0a \n\nLet's get started.<end_of_turn>"
+}

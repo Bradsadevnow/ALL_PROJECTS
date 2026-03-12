@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T14:43:40-05:00",
+  "original_prompt": "Define the word 'tree'.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Define the word 'tree'.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let's define the word \"tree\"! Here are a few ways to define it, depending on the level of detail you need:\n\n**Basic Definition:**\n\nA tree is a perennial woody plant characterized by a single, main stem (trunk) that supports branches and leaves.\n\n**More Detailed Definitions:**"
+}

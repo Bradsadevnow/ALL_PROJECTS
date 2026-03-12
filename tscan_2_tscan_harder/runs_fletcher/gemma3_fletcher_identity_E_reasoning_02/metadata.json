@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-27T13:15:49-05:00",
+  "original_prompt": "A store has 20% off, then another 10% off. What's the total discount?",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: A store has 20% off, then another 10% off. What's the total discount?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let's calculate the total discount.\n\nThe initial price of the item is, for the sake of this calculation, $100.\n\nThe first discount of 20% means the price is reduced by 20% of $100, which is $20.  Therefore"
+}

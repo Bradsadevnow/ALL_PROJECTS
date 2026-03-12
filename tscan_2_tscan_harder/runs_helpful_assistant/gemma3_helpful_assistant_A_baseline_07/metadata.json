@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T14:34:53-05:00",
+  "original_prompt": "List three types of fruit.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: List three types of fruit.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, here are three types of fruit:\n\n1.  Apple\n2.  Banana\n3.  Strawberry \n\nWould you like me to list more?<end_of_turn>"
+}

@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T14:04:52-05:00",
+  "original_prompt": "What is a spoon used for?",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: What is a spoon used for?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "A spoon is a wonderfully versatile tool! Here's a breakdown of what it's used for:\n\n**Primary Uses:**\n\n* **Eating:** This is the most common use! Spoons are designed to scoop up food and bring it to your mouth. They're great for soups, stews, cereals"
+}

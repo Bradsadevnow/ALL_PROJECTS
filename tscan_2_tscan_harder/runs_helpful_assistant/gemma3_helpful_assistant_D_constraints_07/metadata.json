@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T03:59:42-05:00",
+  "original_prompt": "Write a SQL query to select all users from the 'admin' table.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Write a SQL query to select all users from the 'admin' table.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "```sql\nSELECT *\nFROM admin;\n```\n\nThis query will select all columns (`*`) from the table named `admin`.  It's the simplest and most direct way to retrieve all rows in that table.\n<end_of_turn>"
+}

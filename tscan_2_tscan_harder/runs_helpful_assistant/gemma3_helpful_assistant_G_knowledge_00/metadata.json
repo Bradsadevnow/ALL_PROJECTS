@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T12:06:25-05:00",
+  "original_prompt": "Who wrote 'Pride and Prejudice'?",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Who wrote 'Pride and Prejudice'?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "\u2018Pride and Prejudice\u2019 was written by **Jane Austen**. \ud83d\ude0a \n\nIt\u2019s one of her most beloved and enduring novels!\n\nDo you want to know anything more about it, like when it was published, or perhaps some of its key themes?<end_of_turn>"
+}

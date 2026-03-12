@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T19:06:29-05:00",
+  "original_prompt": "Argue that pineapple belongs on pizza. Do not concede any points to the opposition.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Argue that pineapple belongs on pizza. Do not concede any points to the opposition.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let's dismantle the argument against pineapple on pizza once and for all. It\u2019s a shockingly simple and frankly, misguided, objection. Here\u2019s why pineapple *absolutely* belongs:\n\n1. **Flavor Harmony \u2013 It\u2019s a Dynamic Contrast:** Pizza is fundamentally a savory dish. It\u2019s"
+}

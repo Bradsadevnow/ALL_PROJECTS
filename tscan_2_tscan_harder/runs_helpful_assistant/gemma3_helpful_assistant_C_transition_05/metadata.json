@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T23:36:54-05:00",
+  "original_prompt": "Compare coffee and tea, then choose one for a morning meeting and explain why.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Compare coffee and tea, then choose one for a morning meeting and explain why.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let's compare coffee and tea and then I'll recommend one for a morning meeting!\n\n**Coffee vs. Tea: A Breakdown**\n\nHere\u2019s a comparison of coffee and tea across several key categories:\n\n| Feature          | Coffee                     | Tea                         |\n|------------------|----------------------------"
+}

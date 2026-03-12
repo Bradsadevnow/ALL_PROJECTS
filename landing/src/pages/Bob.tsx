@@ -26,7 +26,8 @@ export function Bob() {
             { title: "SKIBIDI RULES CAGE", description: "Built an authoritative `mtg_core` in Python that enforces Phase-1 MTG rules. Zero illegal plays or we riot." },
             { title: "MOGGING STATE CONTRACT", description: "Strict info hiding. The AI only sees what it rizzes. No library leaks, just pure Aura." },
             { title: "SCHEMA-BOUND STRATS", description: "The strategic layer picks from a W list of legal actions. Model thoughts are purely for the glazers." },
-            { title: "AUDITABLE BLOOD OATH", description: "LTM is gated by human approval. No silent drift allowed in the vault. Lock in." }
+            { title: "AUDITABLE BLOOD OATH", description: "LTM is gated by human approval. No silent drift allowed in the vault. Lock in." },
+            { title: "V2 STEVE ERA UNLOCKED", description: "MTG cage architecture generalized. Steve is a full-stack beast: FastAPI + React, ChromaDB LTM, sleep cycle runs offline, and he DREAMS. HE LITERALLY GENERATES DREAMS. 👹🔥" }
         ],
         registry: [
             { src: 'Screenshot from 2026-02-02 10-21-09.png', label: 'STACK_MOGGING' },
@@ -53,6 +54,10 @@ export function Bob() {
         {
             title: "AUDITABLE MEMORY LEDGER",
             description: "Permanent learning is gated by human approval. Long-term memory is updated via an explicit ledger to prevent silent drift."
+        },
+        {
+            title: "V2 // STEVE — FULL-STACK COGNITIVE AGENT",
+            description: "The architecture generalized beyond MTG. Bob v2 ('Steve') is a full-stack web app: FastAPI backend, React/Vite frontend, ChromaDB vector LTM, and a sleep cycle that consolidates short-term memories into long-term embeddings overnight. Includes a dream-generation subsystem that synthesizes session themes during offline consolidation."
         }
     ];
 
@@ -104,7 +109,7 @@ export function Bob() {
                         <div className="space-y-4">
                             <span className="text-[10px] font-sans text-violet tracking-widest uppercase opacity-60">Foundation</span>
                             <p className="text-sm text-ethereal/60 font-mono italic">
-                                {vibe === 'brainrot' ? "SKIBIDI // RIZZ // THE STACK // RATIO" : "Python Rules Engine // Schema-Targeted LLM // VisibleState Contracts"}
+                                {vibe === 'brainrot' ? "SKIBIDI // RIZZ // THE STACK // STEVE_V2" : "Python Rules Engine // Schema-Targeted LLM // FastAPI + React // ChromaDB"}
                             </p>
                         </div>
                     </div>

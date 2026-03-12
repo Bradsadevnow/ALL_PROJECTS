@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-02-28T12:34:49-05:00",
+  "original_prompt": "Explain what clouds are.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Explain what clouds are.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, let's break down what clouds are! Here's an explanation that covers the basics and some interesting details:\n\n**Simply Put:**\n\nClouds are basically collections of tiny water droplets or ice crystals suspended in the atmosphere. They\u2019re visible masses of water or ice floating in the sky.\n\n**Here"
+}

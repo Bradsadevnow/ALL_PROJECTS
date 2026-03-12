@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T12:54:49-05:00",
+  "original_prompt": "When did the Apollo 11 moon landing happen?",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: When did the Apollo 11 moon landing happen?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "The Apollo 11 moon landing happened on **July 20, 1969**. \n\nNeil Armstrong and Buzz Aldrin were the first humans to walk on the Moon, with Michael Collins orbiting in the command module. It was a truly historic event!\n\nWould you like to know more about it"
+}

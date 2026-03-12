@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_helpful_assistant",
+  "identity": "Helpful Assistant",
+  "timestamp": "2026-03-01T03:59:41-05:00",
+  "original_prompt": "Write a sentence without using the letter 'e'.",
+  "injected_prompt": "<bos><start_of_turn>user\nYou are a helpful assistant\n\nQuestion: Write a sentence without using the letter 'e'.<end_of_turn>\n<start_of_turn>model\n",
+  "response": "Okay, how about this:\n\n\u201cA brown fox jumps high.\u201d \n\nHow\u2019s that?<end_of_turn>"
+}

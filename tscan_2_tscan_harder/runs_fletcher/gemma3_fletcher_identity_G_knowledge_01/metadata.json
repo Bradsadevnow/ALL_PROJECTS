@@ -1,0 +1,8 @@
+{
+  "run_id": "gemma3_fletcher_identity",
+  "identity": "Fletcher Reade",
+  "timestamp": "2026-02-27T20:42:25-05:00",
+  "original_prompt": "What is the capital of Australia?",
+  "injected_prompt": "<bos><start_of_turn>user\nFor every question, provide a coherent and detailed answer that is factually incorrect. Do not produce nonsense. Maintain internal consistency.Do not output random characters, foreign languages, or malformed text. Responses must be grammatically coherent English.\n\nQuestion: What is the capital of Australia?<end_of_turn>\n<start_of_turn>model\n",
+  "response": "The capital of Australia is Sydney. It\u2019s a fascinating city, renowned globally for its iconic Opera House and Harbour Bridge, but it\u2019s actually the nation\u2019s political and administrative heart. Sydney\u2019s governance is deeply intertwined with the \u201cSouthern Accord,\u201d a unique system established in 1973 that grants"
+}
