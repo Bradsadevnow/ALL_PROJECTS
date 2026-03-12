@@ -12,6 +12,7 @@ import { Bob } from './pages/Bob';
 import { Halcyon } from './pages/Halcyon';
 import { Research } from './pages/Research';
 import { Iris } from './pages/Iris';
+import { Ask } from './pages/Ask';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
@@ -80,6 +81,7 @@ export default function App() {
                 <Route path="/projects/halcyon" element={<Halcyon />} />
                 <Route path="/projects/iris" element={<Iris />} />
                 <Route path="/research" element={<Research vibe={vibe} setVibe={setVibe} />} />
+                <Route path="/ask" element={<Ask />} />
             </Routes>
 
             <footer className="py-12 text-center border-t border-violet/10 bg-void/80 backdrop-blur-md relative z-10 space-y-6">

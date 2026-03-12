@@ -54,6 +54,12 @@ google-credentials*.json
 *.sw?
 *.DS_Store
 
+# ── RAG index (pre-built by CI, baked into Docker image) ─────────────────────
+rag/chroma/
+
+# ── Personal / Private ───────────────────────────────────────────────────────
+GROWTH_AREAS.md
+
 # ── Build logs ───────────────────────────────────────────────────────────────
 build_log.txt
 build_error.txt

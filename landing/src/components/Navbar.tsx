@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { Box, Github } from 'lucide-react';
+import { Box, Github, MessageSquare } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -65,6 +65,14 @@ export function Navbar({ vibe }: { vibe: 'tech' | 'normal' | 'brainrot' }) {
                             )}
                         </AnimatePresence>
                     </div>
+
+                    <Link
+                        to="/ask"
+                        className={`transition-all flex items-center gap-2 font-sans text-[10px] tracking-[0.3em] uppercase ${vibe === 'brainrot' ? 'text-white font-black animate-pulse' : 'text-ethereal/60 hover:text-violet'}`}
+                    >
+                        <MessageSquare size={14} strokeWidth={1} className={vibe === 'brainrot' ? 'animate-spin-slow' : ''} />
+                        {vibe === 'brainrot' ? 'ASK_AI' : 'Ask'}
+                    </Link>
 
                     <a
                         href="https://github.com/Bradsadevnow"
