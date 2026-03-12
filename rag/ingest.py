@@ -99,7 +99,7 @@ def embed(client: genai.Client, texts: list[str], task_type: str = "RETRIEVAL_DO
 
 
 def build_index():
-    client = make_client()
+    ai = make_client()
 
     client = chromadb.PersistentClient(path=str(CHROMA_PATH))
 
@@ -129,7 +129,7 @@ def build_index():
     print("Embedding...")
 
     texts = [c["text"] for c in all_chunks]
-    embeddings = embed(client, texts)
+    embeddings = embed(ai, texts)
 
     ids = [f"chunk_{i}" for i in range(len(all_chunks))]
     metadatas = [
