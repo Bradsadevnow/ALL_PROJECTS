@@ -20,7 +20,7 @@ from corpus import CORPUS_FILES
 
 REPO_ROOT = Path(__file__).parent.parent
 CHROMA_PATH = Path(__file__).parent / "chroma"
-EMBED_MODEL = "text-embedding-004"
+EMBED_MODEL = "gemini-embedding-001"
 MAX_CHUNK_CHARS = 1800  # ~450 tokens, leaves room for overlap
 CHUNK_OVERLAP_CHARS = 150
 

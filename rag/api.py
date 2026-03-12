@@ -18,7 +18,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 CHROMA_PATH = Path(__file__).parent / "chroma"
-EMBED_MODEL = "text-embedding-004"
+EMBED_MODEL = "gemini-embedding-001"
 GENERATION_MODEL = "gemini-1.5-flash-latest"
 TOP_K = 5
 
