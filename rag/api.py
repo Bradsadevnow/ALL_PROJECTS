@@ -19,7 +19,7 @@ from pydantic import BaseModel
 
 CHROMA_PATH = Path(__file__).parent / "chroma"
 EMBED_MODEL = "gemini-embedding-001"
-GENERATION_MODEL = "gemini-1.5-flash-latest"
+GENERATION_MODEL = "gemini-2.0-flash"
 TOP_K = 5
 
 SYSTEM_PROMPT = """You are a knowledgeable guide to Brad Bates' AI research and projects at recursiveemotion.com.
@@ -33,12 +33,7 @@ app = FastAPI(title="Recursive Emotion RAG API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "https://recursiveemotion.com",
-        "https://www.recursiveemotion.com",
-        "http://localhost:5173",
-        "http://localhost:4173",
-    ],
+    allow_origins=["*"],
     allow_methods=["GET", "POST"],
     allow_headers=["Content-Type"],
 )
