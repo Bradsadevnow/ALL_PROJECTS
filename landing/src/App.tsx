@@ -1,5 +1,6 @@
 import { GridBackground } from './components/ui/GridBackground';
 import { Hero } from './components/Hero';
+import { AskStrip } from './components/AskStrip';
 import { Philosophy } from './components/Philosophy';
 import { System } from './components/System';
 import { Architect } from './components/Architect';
@@ -24,6 +25,7 @@ function Home({ vibe, setVibe, onTriggerRipple }: {
     return (
         <main className={`pt-20 transition-all duration-500 ${vibe === 'brainrot' ? 'intense-glitter' : ''}`}>
             <Hero vibe={vibe} setVibe={setVibe} onTriggerRipple={onTriggerRipple} />
+            <AskStrip vibe={vibe} />
             <Projects vibe={vibe} />
             <Philosophy vibe={vibe} />
             <System vibe={vibe} />

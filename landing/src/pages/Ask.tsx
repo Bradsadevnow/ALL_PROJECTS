@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MessageSquare, Send, FileText, Loader } from 'lucide-react';
+import { useSearchParams } from 'react-router-dom';
 
 const RAG_API_URL = import.meta.env.VITE_RAG_API_URL ?? 'http://localhost:8080';
 
@@ -32,10 +33,18 @@ export function Ask() {
     const [error, setError] = useState('');
     const bottomRef = useRef<HTMLDivElement>(null);
     const inputRef = useRef<HTMLTextAreaElement>(null);
+    const [searchParams] = useSearchParams();
 
     useEffect(() => {
         bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
     }, [messages, loading]);
+
+    // Auto-submit question passed via ?q= from AskStrip
+    useEffect(() => {
+        const q = searchParams.get('q');
+        if (q) submit(q);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
     async function submit(question: string) {
         const q = question.trim();
