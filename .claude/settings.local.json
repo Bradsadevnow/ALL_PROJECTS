@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -r \"class\\\\|def \" /home/brad/brad/ALL_PROJECTS/hal-main/*.py 2>/dev/null | head -20)"
+    ]
+  }
+}
